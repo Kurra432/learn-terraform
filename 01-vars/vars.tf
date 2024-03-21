@@ -14,7 +14,7 @@ output "sample_string" {
 }
 
 ##In above case we just print the variable,If variable is a some combination of strings then the following is the syntax
-        ${} is mandatory if we include the variable inside a string
+        ##${} is mandatory if we include the variable inside a string
 
 output "sample_string1" {
 
