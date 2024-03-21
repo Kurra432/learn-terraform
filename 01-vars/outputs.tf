@@ -1,4 +1,8 @@
+
+##In shell scripting we print the variable echo $ "sample_string"
+
 ## How to print the variable in Terraform below syntax"
+
 
 output "sample_string" {
   value = var.sample_string
@@ -11,3 +15,12 @@ output "sample_string1" {
 
   value = "value of sample_string = ${var.sample_string}"
 }
+
+## Values from list
+## second value in list
+
+output "sample_list_2" {
+  value = var.sample_list[1]
+}
+
+##print number1 in sample_dict
