@@ -5,8 +5,18 @@ variable "sample_string" {
 
 ##In shell scripting we declare variable like this sample_string = hello world but in terraform we declare above syntax##
 
+##In shell scripting we print the variable echo $ "sample_string"
+
 ## How to print the variable in Terraform below syntax"
 
 output "sample_string" {
   value = var.sample_string
+}
+
+##In above case we just print the variable,If variable is a some combination of strings then the following is the syntax
+        ${} is mandatory if we include the variable inside a string
+
+output "sample_string1" {
+
+   value = "value of sample_string = ${var.sample_string}"
 }
