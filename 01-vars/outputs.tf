@@ -24,3 +24,11 @@ output "sample_list_2" {
 }
 
 ##print number1 in sample_dict
+
+output "sample_dict_number1" {
+  value = var.sample_dict["number1"]
+}
+
+output "sample_dict_boolean" {
+  value = var.sample_dict["boolean"]
+}
