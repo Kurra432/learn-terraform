@@ -30,3 +30,15 @@ variable "sample_list" {
 }
 
 #Data inside the list doesn't matter in terraform
+
+#we have dictionary or map , meaning single variable will have multiple values & each is going to have a separate name
+
+variable "sample_dict" {
+  default = {
+    number1 = 100
+    string1 = "hello"
+    boolean = true
+
+
+  }
+}
