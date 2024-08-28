@@ -10,7 +10,7 @@ variable "sample_number" {
 
 variable "sample_boolean" {
 
-  default = True
+  default = true
 }
 
 ## Variable types
@@ -23,7 +23,7 @@ variable "sample_list" {
   default = [
     100,
     "hello",
-    True,
+    true,
     123
 
   ]
