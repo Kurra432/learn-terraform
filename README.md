@@ -12,4 +12,9 @@
 10.Condtions
 11.output
 
-#
+### Terraform Precedence (Priority)
+
+1.-var-file
+2. *.auto.approvers
+3. terraform.tfvars
+4. ask in cli to provide input
